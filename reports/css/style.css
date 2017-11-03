@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'HelveticaNeue_';
+    src: url('font/HelveticaNeueCyr-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Proxima_';
+    src: url('font/ProximaNova-Reg.otf');
+}
+
+@font-face {
+    font-family: 'Proxima_bold';
+    src: url('font/ProximaNova-Semibold_0.otf');
+}
+@font-face {
+    font-family: 'Proxima2';
+    src: url('font/Proxima2.otf');
+}
+
+@font-face {
+    font-family: 'Proxima4';
+    src: url('font/Proxima4.otf');
+}
+
+body{
+    margin: 0px;
+}
+
+body, .main-container{
+    background-color: #f0f4fa;
+    margin-top: 8px;
+}
+
+.main-container{
+    max-width: 1200px;
+    min-width: 1100px;
+    width: 100%;
+}
+
+.list-body table, .list-body th, .list-body td{
+    border: 1px solid #e6e8ea;
+    /*border-style:1px solid black;*/
+
+}
+.list-body td{
+    padding: 8px 15px;
+
+}
+.list-body table{
+    width: calc(100% + 2px);
+}
+
+.list-report{
+    box-shadow: 0px 0px 5px #d1d8e2;
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+}
+
+.list-body td:nth-child(odd){
+    color: #2066bc;
+    font-family: "Proxima_bold";
+    font-family: "Proxima4";
+    font-size: 14px;
+    /*font-weight: 400;*/
+    letter-spacing: 0.14px;
+}
+.list-body td:nth-child(even){
+    color: #000000;
+    font-family: "HelveticaNeue_";
+
+    font-size: 13px;
+    font-weight: 500;
+    /* Text style for "Test track" */
+    letter-spacing: 0.13px;
+}
+
+.list-cation{
+    background-color: #ffffff;
+    /*border-radius: 4px 4px 0px 0px;*/
+    color: #002157;
+    font-family: "HelveticaNeue_";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    height: 55px;
+    padding-left: 20px!important;
+}
+
+.list-body{
+    background-color: #f6f7f7;;
+}
+
+.no-padding{
+    padding-left: 4px!important;
+    padding-right: 4px!important;
+}
+
+div.text-report{
+    /*padding: 0px 4px!important;*/
+}
+div.text-report textarea{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    min-height: 200px;
+    border: none;
+    box-shadow: 0px 0px 5px #d1d8e2;
+    padding: 10px 20px;
+    color: #393b45;
+    font-family: "Proxima_";
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.13px;
+    outline: none;
+    resize: none;
+}
+
+.controls .cancel{
+    /*width: 135px;*/
+    min-height: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    background-color: #fa424a;
+    border: none;
+    color: #ffffff;
+    font-family: "HelveticaNeue_";
+    font-size: 13px;
+    font-weight: 400;
+    padding: 3px 40px ;
+    letter-spacing: 0.12px;
+    max-width: 150px;
+    width: 100%;
+}
+.controls .apply{
+    color: #ffffff;
+    font-family: "HelveticaNeue_";
+    font-size: 13px;
+    font-weight: 400;
+    /* Text style for "И, зменить" */
+    letter-spacing: 0.12px;
+    /*width: 141px;*/
+    min-height: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    background-color: #096aed;
+    border: none;
+    padding: 3px 35px ;
+
+}
+.controls .symbols{
+    color: #002157;
+    font-family: "HelveticaNeue_";
+    font-size: 16px;
+    font-weight: 500;
+}
+.controls{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks{
+    border-radius: 6px;
+    background-color: white;
+    min-height: 400px;
+    height: 100%;
+    margin-top: 8px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 8px;
+}
+
+.tasks tr{
+    border-bottom: 1px solid #e6e8ea;;
+    color: #000000;
+    font-family: "HelveticaNeue_";
+    font-size: 13px;
+    font-weight: 500;
+    /* Text style for "Время/Стат" */
+    letter-spacing: 0.13px;
+}
+.tasks tr td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tasks tr:nth-child(1) {
+
+}
+.tasks th{
+    background-color: #f6f7f7;
+    border: 1px solid #e6e8ea;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tasks td{
+    color: #002157;
+    /*font-family: "Proxima Nova";*/
+    font-family: 'Proxima_';
+    /*Proxima2*/
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tasks td:nth-child(2){
+    text-align: center;
+}
+
+.status{
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 400;
+    /*line-height: 25px;*/
+    letter-spacing: 0.24px;
+    background-color: #82ca9c;
+    padding: 4px 15px;
+    border-radius: 4px;
+    width: 49px;
+    height: 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.status.yes{
+    background-color: #82ca9c;
+}
+.status.no{
+    background-color: #fa424a;
+}

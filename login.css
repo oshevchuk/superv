@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'HelveticaNeue_';
+    src: url('font/HelveticaNeueCyr-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Proxima_';
+    src: url('font/ProximaNova-Reg.otf');
+}
+
+body{
+    margin: 0;
+}
+
+.login-ground{
+    background-image: url('images/ground.png');
+    background-color: #18284b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    -fx-font-family: "HelveticaNeue_";
+    font-family: "HelveticaNeue_";
+}
+
+.login-modal img{
+    margin-bottom: 50px;
+}
+.login-modal{
+   width: 400px;
+    text-align: center;
+}
+
+.login-modal form{
+    background-color: white;
+    border-radius: 8px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.login-modal span{
+    color: #002157;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+}
+
+.login-modal input{
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+    color: #7f8ca2;
+    font-family: "Proxima_";
+    font-size: 13px;
+    font-weight: 400;
+    /* Text style for "Логин" */
+    letter-spacing: 0.13px;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #7f8ca2;
+    box-sizing: border-box;
+}
+
+.login-modal button{
+    border: none;
+    background-color: #096aed;
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin: 15px 0px;
+}
